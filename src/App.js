@@ -29,10 +29,7 @@ function App() {
 
       {/* HERO */}
       <section className="hero">
-        <h1 className="hero-title">ERRAND MAN</h1>
-        <a href="#donate" className="donate-header" onClick={handleDonateClick}>
-          <i className="fab fa-paypal"></i> Donate via PayPal
-        </a>
+        <h1 className="hero-title">MAN FOR HIRE</h1>
       </section>
 
       {/* DONATE POPUP */}
@@ -59,33 +56,36 @@ function App() {
       {/* MAIN SECTION */}
       <section className="main">
         <div className="left">
-          <h2 className="fade-in">Do you need someone to handle your errands?</h2>
-          <p className="fade-in-delay">Whether it's a delivery, research, shopping, or any task — I handle it on your behalf so you don't have to worry.</p>
+          <h2 className="fade-in">Need something fixed, built, or figured out?</h2>
+          <p className="fade-in-delay">Whether it needs Research, figuring out, or building from scratch — I show up and get it done so you don't have to stress.</p>
           <div className="services">
             <span className="bubble-pop"><i className="fas fa-truck"></i> Delivery & Pickup</span>
-            <span className="bubble-pop"><i className="fas fa-search"></i> Research & Info Hunting</span>
+            <span className="bubble-pop"><i className="fas fa-search"></i> Research & Information Hunting</span>
+            <span className="bubble-pop"><i className="fas fa-random"></i> Stuck on a Decision? I'll Decide for You</span>
             <span className="bubble-pop"><i className="fas fa-shopping-bag"></i> Shopping on Your Behalf</span>
+            <span className="bubble-pop"><i className="fas fa-clock"></i> Accountability Ghost — Watch Your Screen Time While You Work</span>
             <span className="bubble-pop"><i className="fas fa-calendar-check"></i> Booking & Reservations</span>
+            <span className="bubble-pop"><i className="fas fa-handshake"></i> A Friend to Talk To ?</span>
             <span className="bubble-pop"><i className="fas fa-file-alt"></i> Document Runs</span>
+            <span className="bubble-pop"><i className="fas fa-eye"></i> Second Pair of Eyes on Sketchy Marketplace Deals</span>
             <span className="bubble-pop"><i className="fas fa-laptop"></i> Virtual Assistance</span>
-            <span className="bubble-pop"><i className="fas fa-user-friends"></i> Be Your Plus-One to an Event</span>
-            <span className="bubble-pop"><i className="fas fa-handshake"></i> Find a Friend to Talk To</span>
+            <span className="bubble-pop"><i className="fas fa-user-friends"></i> Be Your Plus-One to an Event</span>           
             <span className="bubble-pop"><i className="fas fa-gift"></i> Send a Thoughtful Gift on Your Behalf</span>
-            <span className="bubble-pop"><i className="fas fa-heart"></i> Check on a Family Member in Nairobi</span>
+            <span className="bubble-pop"><i className="fas fa-heart"></i> Check on a Family Member</span>
             <span className="bubble-pop"><i className="fas fa-motorcycle"></i> Deliver Something to a Loved One</span>
             <span className="bubble-pop"><i className="fas fa-tasks"></i> Run a Family Errand Remotely</span>
             <span className="bubble-pop"><i className="fas fa-utensils"></i> Hunt Down the Best Local Food Spot</span>
             <span className="bubble-pop"><i className="fas fa-comment-dots"></i> Need Someone to Tell You the Truth? I Will</span>
-            <span className="bubble-pop"><i className="fas fa-paw"></i> I'll Name Your Pet, Business, or Baby</span>
-            <span className="bubble-pop"><i className="fas fa-random"></i> Stuck on a Decision? I'll Decide for You</span>
-            <span className="bubble-pop"><i className="fas fa-eye"></i> Second Pair of Eyes on Sketchy Marketplace Deals</span>
-            <span className="bubble-pop"><i className="fas fa-user-check"></i> Be Your Silent Support at Anxiety-Inducing Events</span>
+            <span className="bubble-pop"><i className="fas fa-paw"></i> I'll Name Your Pet, Business, or Baby</span>           
             <span className="bubble-pop"><i className="fas fa-book-open"></i> Tell You a Made-Up Bedtime Story Over Voice Note</span>
             <span className="bubble-pop"><i className="fas fa-cloud-moon"></i> Walk With You in Silence — No Talking Needed</span>
             <span className="bubble-pop"><i className="fas fa-unlock-alt"></i> Be the Person You Finally Confess Something To</span>
-            <span className="bubble-pop"><i className="fas fa-gavel"></i> Neutral Friend in a Petty Argument — I'll Declare a Winner</span>
-            <span className="bubble-pop"><i className="fas fa-clock"></i> Accountability Ghost — Watch Your Screen Time While You Work</span>
+            <span className="bubble-pop"><i className="fas fa-gavel"></i> Neutral Friend in a Petty Argument — I'll Declare a Winner</span>            
             <span className="bubble-pop"><i className="fas fa-bullhorn"></i> Monday Morning Goal Reminder — Aggressive Motivation</span>
+            <span className="bubble-pop"><i className="fas fa-dice"></i> Life Roulette — I Pick, You Do</span>
+            <span className="bubble-pop"><i className="fas fa-cloud-moon"></i> Sit in Silence Together — No Talking, Just Existing</span>
+            <span className="bubble-pop"><i className="fas fa-star"></i> Be the First Person You Tell Your Big News To</span>
+            <span className="bubble-pop"><i className="fas fa-trophy"></i> Celebrate Your Small Wins — I'll Clap Like It's a Grammy</span>
           </div>
 
           {/* OPEN INVITE SECTION */}
@@ -102,7 +102,7 @@ function App() {
             </p>
           </div>
 
-          <p className="hero-sub">Not just an errand guy — your guy. Call me when life gets weird, busy, or you just need a human to handle something.</p>
+          <p className="hero-sub">Not just a helper — your guy. Call me when life gets weird, busy, broken, or you just need a human to figure it out.</p>
         </div>
 
         <div className="right">
@@ -112,6 +112,12 @@ function App() {
             <p className="profile-detail"><i className="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
             <p className="profile-detail"><i className="fas fa-birthday-cake"></i> 24 years old</p>
           </div>
+
+          {/* BOOK NOW BUTTON */}
+          <a href="https://wa.me/254113839926" className="book-now-btn">
+            <i className="fas fa-calendar-check"></i> Book Now
+          </a>
+
           <div className="contact">
             <a href="https://wa.me/254113839926">
               <i className="fab fa-whatsapp"></i> +254 113 839 926
@@ -155,6 +161,13 @@ function App() {
             </ul>
           </div>
         </div>
+      </section>
+
+      {/* DONATE AT BOTTOM */}
+      <section className="donate-bottom">
+        <button className="donate-header" onClick={handleDonateClick}>
+          <i className="fab fa-paypal"></i> Donate via PayPal
+        </button>
       </section>
 
     </div>

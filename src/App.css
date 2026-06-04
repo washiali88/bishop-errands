@@ -344,6 +344,10 @@ body {
 .services span:nth-child(22) { animation-delay: 1.1s; }
 .services span:nth-child(23) { animation-delay: 1.15s; }
 .services span:nth-child(24) { animation-delay: 1.2s; }
+.services span:nth-child(25) { animation-delay: 1.25s; }
+.services span:nth-child(26) { animation-delay: 1.3s; }
+.services span:nth-child(27) { animation-delay: 1.35s; }
+.services span:nth-child(28) { animation-delay: 1.4s; }
 
 @keyframes bubblePopIn {
   from { opacity: 0; transform: scale(0.8) translateY(10px); }
@@ -564,6 +568,19 @@ body {
   opacity: 0.8;
 }
 
+/* DONATE AT BOTTOM */
+.donate-bottom {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 30px 20px 50px;
+}
+
+.donate-bottom .donate-header {
+  font-size: 15px;
+  padding: 14px 28px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .hero { 
@@ -575,4 +592,32 @@ body {
   .left { min-width: unset; width: 100%; }
   .about { padding: 40px 20px; }
   .donate-popup { padding: 24px 20px; }
+}
+
+/* BOOK NOW BUTTON */
+.book-now-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: min(280px, 90vw);
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.book-now-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+}
+
+.book-now-btn i {
+  font-size: 18px;
 }
