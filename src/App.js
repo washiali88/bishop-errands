@@ -59,15 +59,15 @@ function App() {
           <h2 className="fade-in">Need something fixed, built, or figured out?</h2>
           <p className="fade-in-delay">Whether it needs Research, figuring out, or building from scratch — I show up and get it done so you don't have to stress.</p>
           <div className="services">
+            <span className="bubble-pop"><i className="fas fa-clock"></i> Accountability Ghost — Watch Your Screen Time While You Work</span>
             <span className="bubble-pop"><i className="fas fa-truck"></i> Delivery & Pickup</span>
+            <span className="bubble-pop"><i className="fas fa-handshake"></i> A Friend to Talk To Everyday ?</span>
             <span className="bubble-pop"><i className="fas fa-search"></i> Research & Information Hunting</span>
             <span className="bubble-pop"><i className="fas fa-random"></i> Stuck on a Decision? I'll Decide for You</span>
             <span className="bubble-pop"><i className="fas fa-shopping-bag"></i> Shopping on Your Behalf</span>
-            <span className="bubble-pop"><i className="fas fa-clock"></i> Accountability Ghost — Watch Your Screen Time While You Work</span>
-            <span className="bubble-pop"><i className="fas fa-calendar-check"></i> Booking & Reservations</span>
-            <span className="bubble-pop"><i className="fas fa-handshake"></i> A Friend to Talk To ?</span>
-            <span className="bubble-pop"><i className="fas fa-file-alt"></i> Document Runs</span>
             <span className="bubble-pop"><i className="fas fa-eye"></i> Second Pair of Eyes on Sketchy Marketplace Deals</span>
+            <span className="bubble-pop"><i className="fas fa-calendar-check"></i> Booking & Reservations</span>           
+            <span className="bubble-pop"><i className="fas fa-file-alt"></i> Document Runs</span>           
             <span className="bubble-pop"><i className="fas fa-laptop"></i> Virtual Assistance</span>
             <span className="bubble-pop"><i className="fas fa-user-friends"></i> Be Your Plus-One to an Event</span>           
             <span className="bubble-pop"><i className="fas fa-gift"></i> Send a Thoughtful Gift on Your Behalf</span>
