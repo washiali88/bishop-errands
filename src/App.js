@@ -59,6 +59,9 @@ function App() {
           <h2 className="fade-in">Need something fixed, built, or figured out?</h2>
           <p className="fade-in-delay">Whether it needs Research, figuring out, or building from scratch — I show up and get it done so you don't have to stress.</p>
           <div className="services">
+            <span className="bubble-pop"><i className="fas fa-broom"></i> Housekeeping</span>
+            <span className="bubble-pop"><i className="fas fa-car"></i> Driving</span>
+            <span className="bubble-pop"><i className="fas fa-user-tie"></i> Caretaker</span>
             <span className="bubble-pop"><i className="fas fa-clock"></i> Accountability Ghost — Watch Your Screen Time While You Work</span>
             <span className="bubble-pop"><i className="fas fa-truck"></i> Delivery & Pickup</span>
             <span className="bubble-pop"><i className="fas fa-handshake"></i> A Friend to Talk To Everyday ?</span>
